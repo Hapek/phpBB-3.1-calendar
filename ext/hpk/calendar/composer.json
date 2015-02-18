@@ -1,0 +1,37 @@
+{
+	"name": "hpk/calendar",
+	"type": "phpbb-extension",
+	"description": "Opis rozszerzenia",
+	"homepage": "link do githuba",
+	"version": "0.2.0-dev",
+	"keywords": ["phpbb", "extension", "calendar", "event", "party"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "główny",
+			"email": "",
+			"homepage": "",
+			"role": "Lead Developer"
+		},
+		{
+			"name": "Błażej Hap",
+			"homepage": "",
+			"email": "",
+			"role": "Port to phpBB 3.1"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Calendar",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.x"
+		},
+		"version-check": {
+			"host": "domena",
+			"directory": "podkatalogi",
+			"filename": "nazwa pliku"
+		}
+	}
+}
