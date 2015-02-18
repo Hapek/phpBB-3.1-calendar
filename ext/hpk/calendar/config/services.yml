@@ -1,0 +1,14 @@
+services:
+    hpk.calendar.controller:
+        class: hpk\calendar\controller\main
+        arguments:
+            - @auth
+            - @cache
+            - @config
+            - @dbal.conn
+            - @request
+            - @template
+            - @user
+            - @controller.helper
+            - %core.root_path%
+            - %core.php_ext%
